@@ -1,0 +1,12 @@
+D:\فایل های تمرینی\NafisNakh\UIQuery\bin\Debug\net8.0\UIQuery.deps.json
+D:\فایل های تمرینی\NafisNakh\UIQuery\bin\Debug\net8.0\UIQuery.dll
+D:\فایل های تمرینی\NafisNakh\UIQuery\bin\Debug\net8.0\UIQuery.pdb
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\UIQuery.GeneratedMSBuildEditorConfig.editorconfig
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\UIQuery.AssemblyInfoInputs.cache
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\UIQuery.AssemblyInfo.cs
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\UIQuery.csproj.CoreCompileInputs.cache
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\UIQuery.sourcelink.json
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\UIQuery.dll
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\refint\UIQuery.dll
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\UIQuery.pdb
+D:\فایل های تمرینی\NafisNakh\UIQuery\obj\Debug\net8.0\ref\UIQuery.dll

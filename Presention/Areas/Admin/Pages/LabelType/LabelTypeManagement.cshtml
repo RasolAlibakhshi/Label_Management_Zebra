@@ -1,0 +1,68 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.LabelType.LabelTypeManagementModel
+@{
+}
+
+@await Component.InvokeAsync("AdminHead")
+
+<div class="container">
+    <div class=" mt-4 p-4 ">
+        <!-- دکمه ایجاد لیبل جدید -->
+        <div class="mb-3 text-end">
+            <a asp-page="/LabelType/AddLabelType" class="btn btn-success">ایجاد فایل لیبل جدید</a>
+        </div>
+
+        <h3 class="mb-3 text-center">اطلاعات ثبت‌شده</h3>
+        
+        <table class="table table-striped text-center">
+            <thead>
+            <tr>
+                    <th>عنوان لیبل</th>
+                    <th>سالن</th>
+                    <th>تاریخ ایجاد</th>
+                    <th>دانلود فایل</th>
+                    <th>عملیات</th>
+            </tr>
+            </thead>
+            <tbody>
+
+                @if (!Model.ValetTypeView.Any())
+                {
+                    <tr>
+                        <td colspan="4">هنوز اطلاعاتی ثبت نشده است.</td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var item in Model.ValetTypeView)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.HallName</td>
+                            <td>@item.CreationDateTime</td>
+                            <td><a asp-page-handler="Download" asp-route-id="@item.ID">دانلود</a></td>
+                            <td>
+                                <div class="btn-group" dir="ltr">
+                                    <a asp-page="/LabelType/EditeLabelType" asp-route-id="@item.ID" class="btn btn-success">ویرایش</a>
+                                    @if (!item.IsRemove)
+                                    {
+
+
+                                        <a asp-route-id="@item.ID" asp-page-handler="Remove" class="btn btn-warning ">غیر فعال کردن</a>
+
+                                    }
+                                    else
+                                    {
+
+                                        <a asp-route-id="@item.ID" asp-page-handler="Restore" class="btn btn-warning ">فعال کردن</a>
+                                    }
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

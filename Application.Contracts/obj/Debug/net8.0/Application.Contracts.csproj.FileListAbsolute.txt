@@ -1,0 +1,52 @@
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.deps.json
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.dll
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Domain.dll
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.dll
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Domain.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.AssemblyReference.cache
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfoInputs.cache
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfo.cs
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.CoreCompileInputs.cache
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Applicat.6ADCBA11.Up2Date
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.dll
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\refint\Application.Contracts.dll
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.pdb
+F:\MyProject\Nafisnakh\Application.Contracts\obj\Debug\net8.0\ref\Application.Contracts.dll
+E:\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.deps.json
+E:\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.dll
+E:\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.pdb
+E:\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Domain.dll
+E:\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.dll
+E:\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Domain.pdb
+E:\Nafisnakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.pdb
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.AssemblyReference.cache
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfoInputs.cache
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfo.cs
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Applicat.6ADCBA11.Up2Date
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.dll
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\refint\Application.Contracts.dll
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.pdb
+E:\Nafisnakh\Application.Contracts\obj\Debug\net8.0\ref\Application.Contracts.dll
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.deps.json
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.dll
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Application.Contracts.pdb
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Domain.dll
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.dll
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Domain.pdb
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\bin\Debug\net8.0\Infrastructure.pdb
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.AssemblyReference.cache
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfoInputs.cache
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.AssemblyInfo.cs
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.csproj.CoreCompileInputs.cache
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.sourcelink.json
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Applicat.6ADCBA11.Up2Date
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.dll
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\refint\Application.Contracts.dll
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\Application.Contracts.pdb
+D:\فایل های تمرینی\NafisNakh\Application.Contracts\obj\Debug\net8.0\ref\Application.Contracts.dll

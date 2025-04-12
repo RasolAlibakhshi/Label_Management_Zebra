@@ -1,0 +1,15 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.EditeHallModel
+@{
+}
+
+@await Component.InvokeAsync("AdminHead")
+
+<form method="post">
+    <div class="input-group mb-3" dir="ltr">
+        
+        <button class="btn btn-outline-success" type="submit">ویرایش</button>
+        <input type="text" name="Name" class="form-control text-center" placeholder="@Model.HallProp.Name ویرایش سالن" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        <input type="hidden" value="@Model.HallProp.ID" name="ID"/>
+    </div>
+</form>

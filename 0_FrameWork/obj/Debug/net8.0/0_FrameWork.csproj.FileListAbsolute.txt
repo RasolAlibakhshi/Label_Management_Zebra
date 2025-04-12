@@ -1,0 +1,13 @@
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.csproj.AssemblyReference.cache
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.AssemblyInfoInputs.cache
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.AssemblyInfo.cs
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.csproj.CoreCompileInputs.cache
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.sourcelink.json
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\bin\Debug\net8.0\0_FrameWork.deps.json
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\bin\Debug\net8.0\0_FrameWork.dll
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\bin\Debug\net8.0\0_FrameWork.pdb
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.dll
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\refint\0_FrameWork.dll
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\0_FrameWork.pdb
+D:\فایل های تمرینی\NafisNakh\0_FrameWork\obj\Debug\net8.0\ref\0_FrameWork.dll

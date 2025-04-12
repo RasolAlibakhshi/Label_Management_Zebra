@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Presention
+build_property.RootNamespace = Presention
+build_property.ProjectDir = D:\فایل های تمرینی\NafisNakh\Presention\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\فایل های تمرینی\NafisNakh\Presention
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Hall/EditeHall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSGFsbFxFZGl0ZUhhbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Hall/HallManegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSGFsbFxIYWxsTWFuZWdtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/LabelType/AddLabelType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTGFiZWxUeXBlXEFkZExhYmVsVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/LabelType/EditeLabelType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTGFiZWxUeXBlXEVkaXRlTGFiZWxUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/LabelType/LabelTypeManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTGFiZWxUeXBlXExhYmVsVHlwZU1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Label/AddLabel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTGFiZWxcQWRkTGFiZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Label/EditeInterwoven.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTGFiZWxcRWRpdGVJbnRlcndvdmVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Label/InterwovenManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTGFiZWxcSW50ZXJ3b3Zlbk1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Machine/EditeMachineManegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWFjaGluZVxFZGl0ZU1hY2hpbmVNYW5lZ21lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Machine/MachineManegment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWFjaGluZVxNYWNoaW5lTWFuZWdtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Shared/Components/AdminHead/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5IZWFkXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/Print.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/SelectInterwoven.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0SW50ZXJ3b3Zlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/SelectMachine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsZWN0TWFjaGluZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Areas/Admin/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tgrrih6kt1
+
+[D:/فایل های تمرینی/NafisNakh/Presention/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xyg6lvdjl2

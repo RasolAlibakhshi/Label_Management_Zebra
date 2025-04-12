@@ -1,0 +1,98 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.Machine.MachineManegmentModel
+@{
+    ViewData["Title"] = "مدیریت ماشین ها";
+}
+
+@await Component.InvokeAsync("AdminHead")
+
+<form method="post">
+    <div class="input-group mb-3" dir="ltr">
+        <button class="btn btn-outline-success" type="submit" id="button-addon1">افزودن</button>
+        <input name="Name" type="text" class="form-control text-center" placeholder="نام ماشین جدید را وارد کنید" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        <select class="form-select text-center" name="HallID" asp-items="@(new SelectList(Model.HalSelectListModel, "ID", "Name"))">
+            <option value="0">سالن مورد نظر را انخاب کنید</option>
+        </select>
+    </div>
+</form>
+
+
+<div class="container">
+    @foreach (var item in Model.HalSelectListModel)
+    {
+        <div class="card m-3 border border-success">
+            <div class="card-header display-5 fw-bold text-center text-success">
+                @item.Name
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    
+
+                    @if (!Model.MachineView.Where(x => x.HallID==item.ID).Any())
+                    {
+                        <div class="container">
+                            <div class="alert alert-danger">هیچ ماشینی برای این سالن ایجاد نشده است.</div>
+                        </div>
+                    }
+                    else
+                    {
+                        <table class="table table-striped text-center">
+                            <thead>
+                                <tr>
+                                    <th>نام ماشین</th>
+                                    <th>تاریخ ایجاد</th>
+                                    <th>وضعیت</th>
+                                    <th>عملیات</th>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+
+                                @foreach (var data in Model.MachineView.Where(x => x.HallID==item.ID))
+                                {
+                                    <tr>
+                                        <td>@data.Name</td>
+                                        <td>@data.CreationDateTime</td>
+                                        @if (data.IsDeleted)
+                                        {
+                                            <td><img src="~/Images_website/eye-slash-fill.svg" alt=""></td>
+                                        }
+                                        else
+                                        {
+                                            <td><img src="~/Images_website/eye-fill.svg" alt=""></td>
+                                        }
+
+                                        <td>
+                                            <div class="btn-group" dir="ltr">
+                                                <a asp-page="/Machine/EditeMachineManegment" asp-route-id="@data.ID" class="btn btn-success">ویرایش</a>
+
+                                                @if (data.IsDeleted)
+                                                {
+                                                    <a asp-page-handler="Restore" asp-route-id="@data.ID" class="btn btn-warning">فعال</a>
+                                                }
+                                                else
+                                                {
+                                                    <a asp-page-handler="Remove" asp-route-id="@data.ID" class="btn btn-warning">غیر فعال</a>
+                                                }
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+
+
+
+
+
+                            </tbody>
+                        </table>
+                    }
+
+
+
+                </blockquote>
+            </div>
+        </div>
+    }
+
+
+</div>

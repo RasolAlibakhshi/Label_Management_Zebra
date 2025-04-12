@@ -1,0 +1,125 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.Label.InterwovenManagementModel
+@{
+    ViewData["Title"] = "مدیریت همبافت";
+}
+
+@await Component.InvokeAsync("AdminHead")
+
+
+@if (TempData["Validation"]!=null)
+{
+    <div class="alert alert-info">
+        @TempData["Validation"]
+    </div>
+}
+
+<div class="container">
+    <div class="border-bottom border-success mb-2">
+        <form method="get">
+            
+            <div class="input-group mb-3" dir="ltr">
+                <button type="submit" class="btn btn-outline-success ">جستجو</button>
+
+
+                <input type="text" name="Interwoven" id="Interwoven" class="form-control text-center" placeholder="جستو جو همبافت" aria-label="جستجو بر اساس همبافت">
+
+                <div class="col-auto">
+                
+            </div>
+            </div>
+
+            
+        </form>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="input-group mb-3" dir="ltr">
+        
+        <a id="linkpage" class="btn btn-outline-success">افزودن همبافت</a>
+
+        <select id="AddLabel" class="form-select" asp-items="@(new SelectList(Model.hallselectview, "ID", "Name", "1"))">
+            <option value="0">سالن مورد نظر را انتخاب کنید...</option>
+        </select>
+
+    </div>
+    
+    <table class="table table-striped text-center">
+        <thead>
+        <tr>
+            <th>همبافت</th>
+            <th>دنیر</th>
+            <th>فیلامنت</th>
+            <th>لا</th>
+            <th>جهت تاب</th>
+            <th>تاریخ ایجاد</th>
+            <th>نام سالن</th>
+            <th>نام ماشین</th>
+            <th>وضعیت</th>
+            <th>عملیات</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+            @foreach (var ithem in @Model.LabelsView)
+            {
+                <tr>
+                <td>@ithem.Interwoven</td>
+                <td>@ithem.Den</td>
+                <td>@ithem.Filament</td>
+
+                <td>@ithem.Ply</td>
+                <td>@ithem.direction</td>
+                <td>@ithem.CreationDateTime</td>
+                <td>@ithem.HallName</td>
+                <td>@ithem.MachineName</td>
+                @if (@ithem.IsDeleted)
+                {
+                    <td><img src="~/Images_website/eye-slash-fill.svg" alt=""></td>
+                }
+                else
+                {
+                    <td><img src="~/Images_website/eye-fill.svg" alt=""></td>
+                }
+
+                <td>
+                    <div class="btn-group" dir="ltr">
+                            <a asp-page="/Label/EditeInterwoven" asp-route-id="@ithem.ID" class="btn btn-success">ویرایش</a>
+
+                        @if (!ithem.IsDeleted)
+                        {
+
+
+                            <a asp-route-id="@ithem.ID" asp-page-handler="Remove" class="btn btn-warning ">غیر فعال کردن</a>
+
+                        }
+                        else
+                        {
+
+                            <a asp-route-id="@ithem.ID" asp-page-handler="Restore" class="btn btn-warning ">فعال کردن</a>
+                        }
+                    </div>
+                </td>
+                </tr>
+            }
+
+
+        
+    </table>
+</div>
+
+@section JS
+{
+    <script>
+        let data = document.getElementById("AddLabel").value;
+        document.getElementById("linkpage").href = `/Admin/Label/AddLabel?id=${data}`;
+
+        document.getElementById("AddLabel").addEventListener("change", function () {
+            let selectedValue = this.value;
+            let link = document.getElementById("linkpage");
+            link.href = `/Admin/Label/AddLabel?id=${selectedValue}`;
+        });
+    </script>
+}

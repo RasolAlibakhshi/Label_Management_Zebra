@@ -1,0 +1,134 @@
+﻿@page
+@model Presention.Pages.PrintModel
+@{
+    ViewData["Title"] = "چاپ";
+}
+
+<div class="container">
+    <fieldset>
+        <legend class="text-center">فرم چاپ</legend>
+        <form method="post" class="form-control">
+            
+            
+            
+
+           
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 col-sm-3">
+                    <label for="1"> همبافت:</label>
+                    <input class="disabled text-center form-text form-control" id="1" name="Interwoven" type="text" placeholder="همبافت" value="@Model.LabelView.Interwoven" readonly>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label for="2">دنیر:</label>
+                    <input class="disabled text-center form-text form-control" id="2" name="Den" type="text" placeholder="دنیر" value="@Model.LabelView.Den" readonly>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label for="3">فیلامنت:</label>
+                    <input class="disabled text-center form-text form-control" id="3" name="Filament" type="text" placeholder="فبلامنت" value="@Model.LabelView.Filament" readonly>
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label for="4">لا:</label>
+                    <input class="disabled text-center form-text form-control" id="4" name="Ply" type="text" placeholder="لا" value="@Model.LabelView.Ply" readonly>
+                </div>
+            </div>
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 col-sm-3">
+                    <label for="5"> کد رنگ:</label>
+                    <input class="disabled text-center form-text form-control" id="5" name="ColorCode" type="text" placeholder="کد رنگ" value="@Model.LabelView.ColorCode" readonly>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label for="6">مینگل:</label>
+                    <input class="disabled text-center form-text form-control" id="6" name="Mingel" type="text" placeholder="مینگل" value="@Model.LabelView.Mingel" readonly>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label for="7">جهت تاب:</label>
+                    <input class="disabled text-center form-text form-control" id="7" name="direction" type="text" placeholder="جهت تاب" value="@Model.LabelView.direction" readonly>
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label for="8">نوع نخ:</label>
+                    <input class="disabled text-center form-text form-control" id="8" name="YarnType" type="text" placeholder="نوع نخ" value="@Model.LabelView.YarnType" readonly>
+                </div>
+
+            </div>
+
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 col-sm-3">
+                    <label for="9"> فیلد خالی 1:</label>
+                    <input class="disabled text-center form-text form-control" id="9" type="text" name="Emptyfield1" placeholder="فیلد خالی 1" value="@Model.LabelView.Emptyfield1" readonly>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label for="10">فیلد خالی 2:</label>
+                    <input class="disabled text-center form-text form-control" id="10" type="text" name="Emptyfield2" placeholder="فیلد خالی 2" value="@Model.LabelView.Emptyfield2" readonly>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label for="11">فیلد خالی 3:</label>
+                    <input class="disabled text-center form-text form-control" id="11" type="text" name="Emptyfield3" placeholder="فیلد خالی 3" value="@Model.LabelView.Emptyfield3" readonly>
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label for="12">فیلد خالی 4:</label>
+                    <input class="disabled text-center form-text form-control" id="12" type="text" name="Emptyfield4" placeholder="فیلد خالی 4" value="@Model.LabelView.Emptyfield4" readonly>
+                </div>
+
+            </div>
+
+
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-10 ">
+                    <label for="13"> توضیحات:</label>
+                    <textarea name="Description" class="disabled  form-text form-control" id="13" rows="4" placeholder="لطفا توضیحات کامل لیبل را در این بخش قرار دهید" readonly>@Model.LabelView.Description</textarea>
+                </div>
+                <div class="col-2 ">
+                    <label for="50"> نام پرینتر پیش فرض:</label>
+                    <input class="disabled text-center form-text form-control" id="50" type="text" name="Emptyfield4" value="@Model.DefaultPrinterName" readonly>
+                </div>
+
+
+            </div>
+            
+            <hr>
+
+            <div class="row g-2 align-items-center mt-2 mb-2">
+                <div class="col-12 col-sm-3">
+                    <label for="15"> شماره پرسنلی:</label>
+                    <input class=" text-center form-text form-control" id="15" type="text" name="Personcode" placeholder="شماره پرسنلی" >
+                </div>
+                <div class="col-12 col-sm-3">
+                    <label for="17">چاپ لیبل از:</label>
+                    <input class=" text-center form-text form-control" id="17" type="number" min="1"  name="NumberStr" placeholder="چاپ لیبل از:" >
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label for="18">چاپ لیبل تا:</label>
+                    <input class=" text-center form-text form-control" id="18" type="number" min="1" name="NumberEnd" placeholder="چاپ لیبل تا:">
+                </div>
+                <div class="col-12 col-sm-2 ">
+
+                    <label for="19">تاریخ میلادی:</label>
+                    <input class="form-check-input" type="checkbox" id="19" type="checkbox" name="DateTimeType">
+                </div>
+                <div class="col-12 col-sm-2">
+                    <label for="20">نوع لیبل:</label>
+                    <select class=" text-center form-text form-control" id="20" type="checkbox" name="LabelType" asp-items="@(new SelectList(Model.LabelTypeView,"ID","Name"))">
+                        <option value="0">انتخاب لیبل...</option>
+                    </select>
+                </div>
+            </div>
+            <input type="hidden" name="MachineID" value="@Model.LabelView.MachineID" />
+
+
+            <div class="row  justify-content-center  text-center">
+
+                <div class="col-6 mt-2"><button class="btn btn-success" type="submit">چاپ</button></div>
+
+            </div>
+
+
+
+
+        </form>
+
+    </fieldset>
+</div>

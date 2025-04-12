@@ -1,0 +1,12 @@
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\bin\Debug\net8.0\AccountManagement.Domian.deps.json
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\bin\Debug\net8.0\AccountManagement.Domian.dll
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\bin\Debug\net8.0\AccountManagement.Domian.pdb
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\AccountManagement.Domian.GeneratedMSBuildEditorConfig.editorconfig
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\AccountManagement.Domian.AssemblyInfoInputs.cache
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\AccountManagement.Domian.AssemblyInfo.cs
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\AccountManagement.Domian.csproj.CoreCompileInputs.cache
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\AccountManagement.Domian.sourcelink.json
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\AccountManagement.Domian.dll
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\refint\AccountManagement.Domian.dll
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\AccountManagement.Domian.pdb
+D:\فایل های تمرینی\NafisNakh\AccountManagement.Domian\obj\Debug\net8.0\ref\AccountManagement.Domian.dll

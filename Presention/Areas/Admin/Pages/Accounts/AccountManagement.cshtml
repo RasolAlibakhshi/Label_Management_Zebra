@@ -1,0 +1,62 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.Accounts.AccountManagementModel
+@{
+    ViewData["Title"] = "مدیریت کاربران";
+}
+
+@await Component.InvokeAsync("AdminHead")
+
+<div class="container">
+    <div class=" mt-4 p-4 ">
+        
+        <div class="mb-3 text-end">
+            <a asp-page="/LabelType/AddLabelType" class="btn btn-success">ایجاد کاربر جدید</a>
+        </div>
+
+        <h3 class="mb-3 text-center">اطلاعات کاربران</h3>
+
+        <table class="table table-striped text-center">
+            <thead>
+                <tr>
+                    <th>عکس پروفایل</th>
+                    <th>نام</th>
+                    <th>نام کاربری</th>
+                    <th>سمت سازمانی</th>
+                    <th>عملیات</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @if (!Model.AccontView.Any())
+                {
+                    <tr>
+                        <td colspan="4">هنوز اطلاعاتی ثبت نشده است.</td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var item in Model.AccontView)
+                    {
+                        <tr>
+                            <td>@item.ProfilePhoto</td>
+                            <td>@item.FullName</td>
+                            <td>@item.UserName</td>
+                            <td>@item.RoleName</td>
+                            
+                                <div class="btn-group" dir="ltr">
+                                <a asp-page="/Accounts/EditAccount" asp-route-id="@item.ID" class="btn btn-success">ویرایش</a>
+
+
+                                        <a asp-route-id="@item.ID" asp-page-handler="Remove" class="btn btn-warning ">حذف کاربر</a>
+
+                                    
+                                </div>
+                            
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>

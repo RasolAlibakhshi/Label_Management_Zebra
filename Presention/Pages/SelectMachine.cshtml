@@ -1,0 +1,61 @@
+﻿@page
+@model Presention.Pages.SelectMachineModel
+@{
+    ViewData["Title"] = "انتخاب ماشین";
+}
+
+
+    <div class="row text-center mb-4">
+
+        @foreach (var ithem in @Model.HallView)
+        {
+            if (!(ithem.ID==Model.ID))
+            {
+                <div class=" col-12 col-sm m-1">
+                    <a class="btn btn-outline-success" asp-route-id="@ithem.ID" asp-page="SelectMachine">@ithem.Name</a>
+                </div>
+            }
+            else
+            {
+            <div class=" col-12 col-sm m-1">
+                <a class="btn btn-success" asp-route-id="@ithem.ID" asp-page="SelectMachine">@ithem.Name</a>
+            </div>
+            }
+
+            
+
+        }
+    </div>
+
+
+<hr/>
+
+
+@if (@Model.MachineView.Any())
+{
+    <div class="container m-5">
+        <div class="alert alert-success text-center" role="alert">لطفا ماشین مورد نظر خود را انتخاب کنید</div>
+    </div>
+
+
+    <div class="row text-center mb-4">
+        
+        @foreach (var Ithem in @Model.MachineView)
+        {
+            <div class=" col-12 col-sm m-1">
+                <a class="btn btn-outline-success" asp-route-id="@Ithem.ID" asp-page="SelectInterwoven">@Ithem.Name</a>
+            </div>
+        }
+
+        
+    </div>
+
+}
+else
+{
+    <div class="container">
+        <div class="alert alert-danger text-center" role="alert">هیچ ماشینی برای این سالن در نظر گرفته نشده است.</div>
+    </div>
+}
+
+

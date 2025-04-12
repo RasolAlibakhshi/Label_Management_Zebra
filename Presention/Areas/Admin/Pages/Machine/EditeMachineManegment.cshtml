@@ -1,0 +1,16 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.Machine.EditeMachineManegmentModel
+@{
+}
+@await Component.InvokeAsync("AdminHead")
+
+<form method="post">
+    <div class="input-group mb-3" dir="ltr">
+        <button class="btn btn-outline-success" type="submit" id="button-addon1">ویرایش</button>
+        <input name="Name" type="text" class="form-control text-center" placeholder="@Model.EditMachineViewModel.Name" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        <select class="form-control text-center" name="HallID" asp-items="@(new SelectList(Model.HalSelectListModel, "ID", "Name",@Model.EditMachineViewModel.HallID))">
+            <option value="0">سالن مورد نظر را انخاب کنید</option>
+        </select>
+        <input type="hidden" name="ID" value="@Model.EditMachineViewModel.ID"/>
+    </div>
+</form>

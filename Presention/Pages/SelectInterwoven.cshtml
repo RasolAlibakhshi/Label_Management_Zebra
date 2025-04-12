@@ -1,0 +1,63 @@
+﻿@page
+@model Presention.Pages.SelectInterwovenModel
+@{
+    ViewData["Title"] = "انتخاب همبافت";
+}
+
+
+@if (@Model.LabelView.Any())
+{
+    <div class="container"> 
+        <div class="alert alert-success text-center" role="alert">لطفا همبافت مورد نظر خود را انتخاب کنید</div>
+    </div>
+    <div class="container"/>
+    <table class="table table-striped text-center">
+        <thead>
+        <tr>
+        
+        <th>همبافت</th>
+        <th>دنیر</th>
+        <th>فیلامنت</th>
+        <th>لا</th>
+        <th>مینگل</th>
+        <th>کد رنگی</th>
+        <th>عملیات</th>
+
+        </tr>
+        </thead>
+        <tbody>
+    
+        @foreach (var item in Model.LabelView)
+    {
+        <tr>
+            <td>@item.Interwoven</td>
+            <td>@item.Den</td>
+            <td>@item.Filament</td>
+            <td>@item.Ply</td>
+            <td>@item.Mingel</td>
+            <td>@if (!string.IsNullOrWhiteSpace(item.ColorCode))
+                {
+                    @item.ColorCode
+                }
+                else
+                {
+                    <span>-</span>
+                }</td>
+            <td>
+                <div class="btn-group" dir="ltr">
+                    <a asp-route-id="@item.ID" asp-page="/Print" class="btn btn-success">ورود به فرم چاپ</a>
+                </div>
+            </td>
+        </tr>
+    }
+        
+    
+    </table>
+
+}
+else
+{
+    <div class="container">
+        <div class="alert alert-danger text-center" role="alert">هیچ همبافتی برای این سالن در نظر گرفته نشده است.</div>
+    </div>
+}

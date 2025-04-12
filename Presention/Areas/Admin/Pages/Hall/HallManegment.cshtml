@@ -1,0 +1,91 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.Hall.HallManegmentModel
+
+@{
+    ViewData["Title"] = "مدیریت سالن ها";
+}
+
+@await Component.InvokeAsync("AdminHead")
+
+    
+<div class="container">
+    <form method="post">
+        <div class="input-group mb-3" dir="ltr">
+            <button class="btn btn-outline-success" type="submit" id="button-addon1">افزودن</button>
+            <input type="text" name="Name" class="form-control text-center" placeholder="لطفا نام سالن جدید خود را وارد کنید"  aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+    </form>
+    
+    @if (!Model._HallViewModel.Any())
+    {
+        <div class="container">
+        <div class="alert alert-danger mx-4" role="alert">
+            هیچ سالنی ثبت نشده است لطفا سالن جدید را از طریق فرم بالا ایجاد کنید.
+        </div>
+        </div>
+        
+        
+    }
+    else
+    {
+        <table class="table table-striped text-center">
+            <thead>
+            <tr>
+                <th>نام سالن</th>
+                <th>تاریخ ایجاد</th>
+                <th>وضعیت</th>
+                <th>عملیات</th>
+            </tr>
+                  
+            </thead>
+            <tbody>
+
+
+            
+            @foreach (var ithem in Model._HallViewModel)
+                {
+                <tr>
+                    
+                    <td>@ithem.Name</td>
+                    <td>@ithem.CreationDateTime</td>
+                    @if (@ithem.IsRemove)
+                    {
+                        <td><img src="~/Images_website/eye-slash-fill.svg" alt=""></td>
+                    }
+                    else
+                    {
+                        <td><img src="~/Images_website/eye-fill.svg" alt=""></td>
+                    }
+                
+                    <td>
+                        <div class="btn-group" dir="ltr">
+                            <a asp-page="/Hall/EditeHall" asp-route-id="@ithem.ID" class="btn btn-success">ویرایش</a>
+                            @if (!ithem.IsRemove)
+                            {
+                                
+                                
+                                <a asp-route-id="@ithem.ID" asp-page-handler="Remove" class="btn btn-warning ">غیر فعال کردن</a>
+                                
+                            }
+                            else
+                            {
+                                
+                                <a asp-route-id="@ithem.ID" asp-page-handler="Restore" class="btn btn-warning ">فعال کردن</a>
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        
+
+
+
+            </tbody>
+        </table>
+    }
+
+            
+   
+
+</div>

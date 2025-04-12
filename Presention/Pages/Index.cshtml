@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "انتخاب سالن";
+}
+
+@if (@Model.HallView.Any())
+{
+    <div class="container"> 
+        <div class="alert alert-success text-center" role="alert">لطفا سالن مورد نظر خود را انتخاب کنید</div>
+    </div>
+
+
+
+    <div class="row text-center mb-4 m-1">
+
+        @foreach (var ithem in @Model.HallView)
+        {
+    
+            <div class=" col-12 col-sm m-1">
+                <a class="btn btn-outline-success" asp-route-id="@ithem.ID" asp-page="SelectMachine" >@ithem.Name</a>
+            </div>
+    
+        }
+    </div>
+}
+else
+{
+    <div class="container">
+        <div class="alert alert-danger text-center" role="alert">متاسفانه هیچ سالنی برای نمایش وجود ندارد.</div>
+    </div>
+}
+
+
+
+
