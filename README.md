@@ -1,4 +1,4 @@
-Label_Management_Zebra
+# Label_Management_Zebra
 A smart and efficient label management system designed to integrate with Zebra label printers. This project helps streamline the creation, editing, and printing of labels in various industrial and retail environments.
 
 ✨ Features
@@ -36,4 +36,4 @@ Set up the database (SQL Server)
 Configure your Zebra printer
 
 Run the project and start managing labels
-# Label_Management_Zebra
+
