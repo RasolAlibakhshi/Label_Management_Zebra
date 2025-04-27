@@ -1,4 +1,5 @@
-﻿using AccountManagement.Domian.AccountAgg;
+﻿using AccountManagement.Domain.RoleAgg;
+using AccountManagement.Domian.AccountAgg;
 using AccountMangemenr.Infrastructure.Mappings;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,7 @@ namespace AccountMangemenr.Infrastructure
     public class AccountContext:DbContext
     {
         public DbSet<Account> Accounts { set; get; }
+        public DbSet<Role> Roles { set; get; }
         public AccountContext(DbContextOptions<AccountContext>options):base(options)
         {
             

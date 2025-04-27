@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aRqTZRiBXCrivXS1mvWYgnPHrzHiHxAfg7Gz1+mE17QG1a6I5eHp5zVlIEy9tOrSUGD3wwdcecJXccmCq/2MCA==",
+  "dgSpecHash": "4h5EZLNJk6Yfl33wAROwUJIXdqI6+qUVsvuiEwI0h0vFhsoFfdMRw4MwesfyWOLKKnxgnpfAXNYs8Q1ZSFPnRg==",
   "success": true,
-  "projectFilePath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj",
+  "projectFilePath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rasol\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Rasol\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

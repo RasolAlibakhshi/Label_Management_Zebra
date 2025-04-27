@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\PrinterZebraModule.csproj",
+      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\PrinterZebraModule.csproj",
       "projectName": "PrinterZebraModule",
-      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\PrinterZebraModule.csproj",
+      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\PrinterZebraModule.csproj",
       "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\obj\\",
+      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,10 +1,12 @@
 using Application.Contracts.Hall;
 using Application.Execution.Hall;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Presention.Areas.Admin.Pages.Hall
 {
+    [Authorize]
     public class HallManegmentModel : PageModel
     {
         private readonly IHallApplication _HallApplication;

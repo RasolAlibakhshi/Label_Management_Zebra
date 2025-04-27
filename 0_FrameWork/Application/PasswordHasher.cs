@@ -41,7 +41,7 @@ namespace _0_Framework.Application
 
             var needsUpgrade = iterations != Options.Iterations;
 
-            using var algorithm = new Rfc2898DeriveBytes(password, salt, iterations, HashAlgorithmName.SHA3_256);
+            using var algorithm = new Rfc2898DeriveBytes(password, salt, iterations, HashAlgorithmName.SHA256);
             var keyToCheck = algorithm.GetBytes(KeySize);
 
             var verified = keyToCheck.SequenceEqual(key);

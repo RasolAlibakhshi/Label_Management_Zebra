@@ -1,5 +1,7 @@
-﻿@{}
-
+﻿@using _0_Framework.Application
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@{}
+@inject IAuthHelper AuthHelper;
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -23,9 +25,15 @@
                         <a class="nav-link active" asp-page="/Index" asp-area="">چاپ لیبل</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" asp-area="Admin" asp-page="/Index">پنل مدیران</a>
+                            <a class="nav-link" asp-area="Admin" asp-page="/Menu">پنل مدیران</a>
                     </li>
-                    
+                    @if (AuthHelper.IsAuthenticated())
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" asp-page="/LogInAdmin" asp-page-handler="Logout">خروج از حساب (@AuthHelper.CurrentAccountInfo().Role)</a>
+                        </li>
+
+                    }
                 </ul>
             </div>
             

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\فایل های تمرینی\\NafisNakh\\Presention\\Presention.csproj": {}
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Presention\\Presention.csproj": {}
   },
   "projects": {
-    "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj",
         "projectName": "0_FrameWork",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -65,6 +69,10 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -87,14 +95,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\AccontManagement.Application.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\AccontManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\AccontManagement.Application.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\AccontManagement.Application.csproj",
         "projectName": "AccontManagement.Application",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\AccontManagement.Application.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\AccontManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,17 +124,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj"
               }
             }
           }
@@ -165,14 +173,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj",
         "projectName": "AccountManagement.Bootstraper",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Bootstraper\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Bootstraper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -194,20 +202,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\AccontManagement.Application.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\AccontManagement.Application.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\AccontManagement.Application.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\AccontManagement.Application.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj"
               }
             }
           }
@@ -266,14 +274,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
         "projectName": "AccountManagement.Contract",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -337,14 +345,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
         "projectName": "AccountManagement.Domian",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -402,14 +410,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj",
         "projectName": "AccountMangemenr.Infrastructure",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -431,14 +439,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
               }
             }
           }
@@ -503,14 +511,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj",
         "projectName": "Application.Contracts",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -532,11 +540,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -581,14 +589,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\Application.Execution.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\Application.Execution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\Application.Execution.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\Application.Execution.csproj",
         "projectName": "Application.Execution",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\Application.Execution.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\Application.Execution.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -610,17 +618,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -659,14 +667,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -724,14 +732,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj",
         "projectName": "HambaftManagement.Bootstraper",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\HambaftManagement.Bootstraper\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\HambaftManagement.Bootstraper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -753,20 +761,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\Application.Execution.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\Application.Execution.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\Application.Execution.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\Application.Execution.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -825,14 +833,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -854,8 +862,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj"
               }
             }
           }
@@ -920,14 +928,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\Presention\\Presention.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Presention\\Presention.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Presention\\Presention.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Presention\\Presention.csproj",
         "projectName": "Presention",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Presention\\Presention.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Presention\\Presention.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Presention\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Presention\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -949,41 +957,41 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\AccontManagement.Application.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccontManagement.Application\\AccontManagement.Application.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\AccontManagement.Application.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccontManagement.Application\\AccontManagement.Application.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Bootstraper\\AccountManagement.Bootstraper.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountMangemenr.Infrastructure\\AccountMangemenr.Infrastructure.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\Application.Execution.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Execution\\Application.Execution.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\Application.Execution.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Execution\\Application.Execution.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\HambaftManagement.Bootstraper\\HambaftManagement.Bootstraper.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj"
               },
-              "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\PrinterZebraModule.csproj": {
-                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\PrinterZebraModule.csproj"
+              "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\PrinterZebraModule.csproj": {
+                "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\PrinterZebraModule.csproj"
               }
             }
           }
@@ -1045,14 +1053,14 @@
         }
       }
     },
-    "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\PrinterZebraModule.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\PrinterZebraModule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\PrinterZebraModule.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\PrinterZebraModule.csproj",
         "projectName": "PrinterZebraModule",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\PrinterZebraModule.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\PrinterZebraModule.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\PrinterZebraModule\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\PrinterZebraModule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

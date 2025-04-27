@@ -32,7 +32,7 @@ namespace Infrastructure.DTO
             _accountContext.Set<TEntity>().Entry(entity).State = EntityState.Deleted;
         }
 
-        public void DeleteByID(int id)
+        public void DeleteByID(long id)
         {
             _accountContext.Accounts.Entry(_accountContext.Accounts.FirstOrDefault(x => x.ID==id)).State = EntityState.Deleted;
         }
@@ -67,8 +67,7 @@ namespace Infrastructure.DTO
                 
                 Password = data.Password,
                 RoleID = data.RoleID,
-                UserName = data.UserName,
-                ProfilePhoto = StringToFormFile.ConvertStringToIFormFile(data.ProfilePhoto,"")
+                UserName = data.UserName
             };
         }
 
@@ -79,13 +78,13 @@ namespace Infrastructure.DTO
 
         public List<AccountViewModel> Search(SearchModel command)
         {
-            var query = _accountContext.Accounts.Where(x=>x.IsDeleted==false).Select(x=>new AccountViewModel
+            var query = _accountContext.Accounts.Include(x=>x.Role).Select(x=>new AccountViewModel
             {
                 ProfilePhoto = x.ProfilePhoto,
                 FullName = x.FullName,
                 UserName = x.UserName,
                 RoleID = x.RoleID,
-                RoleName = "مدیر سیستم",
+                RoleName = x.Role.Name,
                 ID = x.ID 
             });
             if (!string.IsNullOrWhiteSpace(command.FullName))

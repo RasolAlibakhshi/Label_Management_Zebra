@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\UIQuery\\UIQuery.csproj",
+      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\UIQuery\\UIQuery.csproj",
       "projectName": "UIQuery",
-      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\UIQuery\\UIQuery.csproj",
+      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\UIQuery\\UIQuery.csproj",
       "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\UIQuery\\obj\\",
+      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\UIQuery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

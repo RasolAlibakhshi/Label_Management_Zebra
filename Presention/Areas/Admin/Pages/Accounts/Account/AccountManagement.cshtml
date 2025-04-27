@@ -1,0 +1,87 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.Accounts.Acoount.AccountManagementModel
+@{
+    ViewData["Title"] = "مدیریت کاربران";
+}
+
+@await Component.InvokeAsync("AdminHead")
+
+
+@if (TempData["ValiDation"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["ValiDation"]
+    </div>
+}
+
+<div class="container">
+    
+    <div class="border-bottom border-success mb-2">
+        <form method="get">
+            
+            <div class="input-group mb-3" dir="ltr">
+                <button type="submit" class="btn btn-outline-success ">جستجو</button>
+
+
+                <input type="text" name="FullName" id="FullName" class="form-control text-center" placeholder="جستو جو کاربر بر اساس نام" aria-label="جستجو بر اساس همبافت">
+
+                <div class="col-auto">
+                
+                </div>
+            </div>
+
+            
+        </form>
+    </div>
+
+    <div class=" mt-4 p-4 ">
+
+        <div class="mb-3 text-end">
+            <a asp-page="/Accounts/Account/AddAccount" class="btn btn-success">ایجاد کاربر جدید</a>
+        </div>
+
+        <h3 class="mb-3 text-center">اطلاعات کاربران</h3>
+
+        <table class="table table-striped text-center">
+            <thead>
+            <tr>
+                <th>عکس پروفایل</th>
+                <th>نام</th>
+                <th>نام کاربری</th>
+                <th>سمت سازمانی</th>
+                <th>عملیات</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            @if (!Model.AccontView.Any())
+            {
+                <tr>
+                    <td colspan="5">هنوز اطلاعاتی ثبت نشده است.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in Model.AccontView)
+                {
+                    <tr class="">
+                        <td class="align-middle"><img src="~/@item.ProfilePhoto" class="rounded-circle" width="50" height="50"/></td>
+                        <td class="align-middle">@item.FullName</td>
+                        <td class="align-middle">@item.UserName</td>
+                        <td class="align-middle">@item.RoleName</td>
+                        <td class="align-middle">
+                            <div class="btn-group align-items-center align-middle" dir="ltr">
+                                <a asp-page="/Accounts/Account/EditAccount" asp-route-id="@item.ID" class="btn btn-success">ویرایش</a>
+                                    <a asp-route-id="@item.ID" asp-page-handler="Remove" class="btn btn-warning ">تغییر رمز</a>
+                                <a asp-route-id="@item.ID" asp-page-handler="Remove" class="btn btn-danger ">حذف کاربر</a>
+                            </div>
+                        </td>
+
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+
+    </div>
+</div>

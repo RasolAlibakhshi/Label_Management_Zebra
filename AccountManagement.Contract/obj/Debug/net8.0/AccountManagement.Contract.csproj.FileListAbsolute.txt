@@ -11,3 +11,16 @@ D:\فایل های تمرینی\NafisNakh\AccountManagement.Contract\obj\Debug\n
 D:\فایل های تمرینی\NafisNakh\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.pdb
 D:\فایل های تمرینی\NafisNakh\AccountManagement.Contract\obj\Debug\net8.0\ref\AccountManagement.Contract.dll
 D:\فایل های تمرینی\NafisNakh\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.csproj.AssemblyReference.cache
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\bin\Debug\net8.0\AccountManagement.Contract.deps.json
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\bin\Debug\net8.0\AccountManagement.Contract.dll
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\bin\Debug\net8.0\AccountManagement.Contract.pdb
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.csproj.AssemblyReference.cache
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.AssemblyInfoInputs.cache
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.AssemblyInfo.cs
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.csproj.CoreCompileInputs.cache
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.sourcelink.json
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.dll
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\refint\AccountManagement.Contract.dll
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\AccountManagement.Contract.pdb
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\AccountManagement.Contract\obj\Debug\net8.0\ref\AccountManagement.Contract.dll

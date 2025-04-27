@@ -10,3 +10,15 @@ D:\فایل های تمرینی\NafisNakh\PrinterZebraModule\obj\Debug\net8.0\Pr
 D:\فایل های تمرینی\NafisNakh\PrinterZebraModule\obj\Debug\net8.0\refint\PrinterZebraModule.dll
 D:\فایل های تمرینی\NafisNakh\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.pdb
 D:\فایل های تمرینی\NafisNakh\PrinterZebraModule\obj\Debug\net8.0\ref\PrinterZebraModule.dll
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\bin\Debug\net8.0\PrinterZebraModule.deps.json
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\bin\Debug\net8.0\PrinterZebraModule.dll
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\bin\Debug\net8.0\PrinterZebraModule.pdb
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.GeneratedMSBuildEditorConfig.editorconfig
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.AssemblyInfoInputs.cache
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.AssemblyInfo.cs
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.csproj.CoreCompileInputs.cache
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.sourcelink.json
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.dll
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\refint\PrinterZebraModule.dll
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\PrinterZebraModule.pdb
+D:\فایل های تمرینی\NafisNakh\Label_Management_Zebra\PrinterZebraModule\obj\Debug\net8.0\ref\PrinterZebraModule.dll

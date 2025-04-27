@@ -19,7 +19,7 @@ namespace Infrastructure.DTO
         void Update(TEntity entity);
         void Delete(TEntity entity);
         bool Exist(Expression<Func<TEntity, bool>> Filter);
-        void DeleteByID(int id);
+        void DeleteByID(long id);
 
         EditAccount GetDetails(long ID);
         List<AccountViewModel> Search(SearchModel command);

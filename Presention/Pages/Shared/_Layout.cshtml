@@ -1,5 +1,6 @@
-﻿@{}
-
+﻿@using _0_Framework.Application
+@{}
+@inject IAuthHelper AuthHelper;
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -20,11 +21,19 @@
             <div class="container">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link active" asp-page="Index">چاپ لیبل</a>
+                        <a class="nav-link active" asp-page="/Index">چاپ لیبل</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-area="Admin" asp-page="Index">پنل مدیران</a>
+                            <a class="nav-link"  asp-page="/LogInAdmin">پنل مدیران</a>
                     </li>
+                    @if (AuthHelper.IsAuthenticated())
+                    {
+                            <li class="nav-item">
+                                <a class="nav-link text-danger" asp-page="/LogInAdmin" asp-page-handler="Logout">خروج از حساب</a>
+                            </li>
+                    }
+                        
+
                     
                 </ul>
             </div>

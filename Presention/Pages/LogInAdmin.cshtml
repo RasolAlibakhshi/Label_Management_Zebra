@@ -1,0 +1,41 @@
+﻿@page
+@model Presention.Pages.LogInAdminModel
+
+
+@{
+    ViewData["Title"] = "مدیریت ورود";
+}
+
+
+@if (TempData["ValiDation"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ValiDation"]
+    </div>
+}
+
+
+<div class="login-box text-center">
+    <h3 class="mb-4">ورود به حساب کاربری</h3>
+    <form method="post">
+        <div class="row">
+            <div class="col-3 mb-3 text-end">
+                <label for="UserName" class="form-label">نام کاربری</label>
+                <input type="text" class="form-control" id="UserName" name="UserName" placeholder=" نام کاربری خود را وارد کنید">
+            </div>
+            <div class="col-3 mb-3 text-end">
+                <label for="Password" class="form-label">رمز عبور</label>
+                <input type="password" class="form-control" id="Password" name="Password" placeholder="رمز عبور خود را وارد کنید">
+            </div>
+            <button type="submit" class=" btn btn-success">ورود</button>
+
+
+
+        </div>
+
+
+
+    </form>
+
+</div>
+

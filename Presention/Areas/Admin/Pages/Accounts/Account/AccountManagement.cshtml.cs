@@ -2,8 +2,9 @@ using AccontManagement.Application.Account;
 using AccountManagement.Contract.Acconut;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
-namespace Presention.Areas.Admin.Pages.Accounts
+namespace Presention.Areas.Admin.Pages.Accounts.Acoount
 {
     public class AccountManagementModel : PageModel
     {
@@ -18,6 +19,12 @@ namespace Presention.Areas.Admin.Pages.Accounts
         public void OnGet(SearchModel command)
         {
             AccontView = _accountApplicationcs.Search(command);
+        }
+
+        public IActionResult OnGetRemove(long id)
+        {
+            TempData["ValiDation"] = _accountApplicationcs.Remove(id).Message;
+            return RedirectToPage("AccountManagement");
         }
     }
 }

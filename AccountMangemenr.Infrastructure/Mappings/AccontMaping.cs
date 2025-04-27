@@ -20,6 +20,8 @@ namespace AccountMangemenr.Infrastructure.Mappings
             builder.Property(x => x.Password).HasMaxLength(1000).IsRequired();
             builder.Property(x => x.ProfilePhoto).HasMaxLength(500).IsRequired();
 
+            builder.HasOne(x => x.Role).WithMany(x => x.Accounts).HasForeignKey(x => x.RoleID);
+
         }
     }
 }

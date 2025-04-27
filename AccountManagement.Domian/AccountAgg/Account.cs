@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AccountManagement.Domain.RoleAgg;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace AccountManagement.Domian.AccountAgg
         public string UserName { get; private set; }
         public string Password { get; private set; }
         public long RoleID { get; private set; }
+        public Role Role { get; private set; }
+
         public string ProfilePhoto { get; private set; }
 
         public Account()

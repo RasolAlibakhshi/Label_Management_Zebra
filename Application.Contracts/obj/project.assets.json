@@ -2888,11 +2888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj",
+      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj",
       "projectName": "Application.Contracts",
-      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\Application.Contracts.csproj",
+      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Application.Contracts\\obj\\",
+      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Application.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2914,11 +2914,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Domain\\Domain.csproj"
+            "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Domain\\Domain.csproj"
             },
-            "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Infrastructure\\Infrastructure.csproj"
+            "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -1,0 +1,44 @@
+﻿@page
+@model Presention.Areas.Admin.Pages.Accounts.Acoount.EditAccountModel
+@{
+    ViewData["Title"] = "ویرایش کاربر";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h3 class="mb-4 text-center">فرم ویرایش کاربر</h3>
+        <form method="post" enctype="multipart/form-data">
+            <div class="row">
+                <!-- فیلد نام -->
+                <div class="col-3 mb-3">
+                    <label for="name" class="form-label">نام:</label>
+                    <input type="text" class="form-control w-10 text-center" id="name" name="FullName" placeholder="نام" value="@Model.data.FullName" required>
+                </div>
+
+                <div class="col-3 mb-3">
+                    <label for="userName" class="form-label">نام کاربری:</label>
+                    <input type="text" class="form-control w-10 text-center" id="userName" name="UserName" placeholder=" نام کاربری" value="@Model.data.UserName" required>
+                </div>
+
+
+
+                <!-- فیلد آپلود فایل -->
+                <div class="col-3 mb-3">
+                    <label for="ProfilePic" class="form-label">عکس پروفایل:</label>
+                    <input type="file" class="form-control" id="ProfilePic" name="ProfilePhoto">
+                </div>
+
+                <!-- سلکت لیست -->
+                <div class="col-3 mb-3">
+                    <label for="Role" class="form-label">نقش:</label>
+                    <select class="form-select text-center" id="Role" name="RoleID" asp-items="@(new SelectList(Model.selectListRole,"Id","Name",Model.data.RoleID))">
+                        <option value="0">نتخاب ...</option>
+                    </select>
+                </div>
+
+                <!-- دکمه ارسال -->
+                <button type="submit" class="btn btn-success w-100">ویرایش</button>
+            </div>
+        </form>
+    </div>
+</div>

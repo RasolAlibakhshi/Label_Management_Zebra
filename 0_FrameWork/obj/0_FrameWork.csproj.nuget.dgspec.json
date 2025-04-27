@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {}
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {}
   },
   "projects": {
-    "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj",
         "projectName": "0_FrameWork",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\0_FrameWork.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\0_FrameWork.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\0_FrameWork\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\0_FrameWork\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.AspNetCore.Http": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -65,6 +69,10 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

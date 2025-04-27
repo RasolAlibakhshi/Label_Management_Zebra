@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
+      "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
       "projectName": "AccountManagement.Domian",
-      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
+      "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\AccountManagement.Domian.csproj",
       "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Domian\\obj\\",
+      "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Domian\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {}
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {}
   },
   "projects": {
-    "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
+    "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
+        "projectUniqueName": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
         "projectName": "AccountManagement.Contract",
-        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
+        "projectPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\AccountManagement.Contract.csproj",
         "packagesPath": "C:\\Users\\Rasol\\.nuget\\packages",
-        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\AccountManagement.Contract\\obj\\",
+        "outputPath": "D:\\فایل های تمرینی\\NafisNakh\\Label_Management_Zebra\\AccountManagement.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

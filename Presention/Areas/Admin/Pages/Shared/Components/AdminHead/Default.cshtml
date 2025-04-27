@@ -1,20 +1,46 @@
-﻿
+﻿@using _0_Framework.Application
+@using _0_FrameWork.Application
 
+@inject IAuthHelper AuthHelper;
 
 <div class="row text-center mb-4">
-    <div class=" col-12 col-sm m-1">
-        <a class="btn btn-outline-success" asp-page="/Hall/HallManegment">مدیریت سالن ها</a>
-    </div>
-    <div class=" col-12 col-sm m-1">
-        <a class="btn btn-outline-success" asp-page="/Machine/MachineManegment">مدیریت ماشین ها</a>
-    </div>
-    <div class=" col-12 col-sm m-1">
-        <a class="btn btn-outline-success" asp-page="/Label/InterwovenManagement">مدیریت همبافت ها</a>
-    </div>
-    <div class=" col-12 col-sm m-1">
-        <a class="btn btn-outline-success " asp-page="/Accounts/AccountManagement">مدیریت مدیران</a>
-    </div>
-    <div class=" col-12 col-sm m-1">
-        <a class="btn btn-outline-success" asp-page="/LabelType/LabelTypeManagement">مدیریت لیبل</a>
-    </div>
+    @{
+        string data = AuthHelper.CurrentAccountInfo().RoleId.ToString();
+    }
+    @if ( data== Roles.Adminstration || data == Roles.PersonInCharge)
+    {
+        <div class=" col-12 col-sm m-1">
+            <a class="btn btn-outline-success" asp-page="/Hall/HallManegment">مدیریت سالن ها</a>
+        </div>
+    }
+    @if (data== Roles.Adminstration ||data == Roles.PersonInCharge)
+    {
+        <div class=" col-12 col-sm m-1">
+            <a class="btn btn-outline-success" asp-page="/Machine/MachineManegment">مدیریت ماشین ها</a>
+        </div>
+    }
+    @if (data== Roles.Adminstration ||data == Roles.PersonInCharge || data==Roles.ShiftManager||data==Roles.Design)
+    {
+        <div class=" col-12 col-sm m-1">
+            <a class="btn btn-outline-success" asp-page="/Label/InterwovenManagement">مدیریت همبافت ها</a>
+        </div>
+    }
+    
+
+    
+    @if (data==Roles.Adminstration||data==Roles.Informatique)
+    {
+        <div class=" col-12 col-sm m-1">
+            <a class="btn btn-outline-success " asp-page="/Accounts/Manage">مدیریت مدیران</a>
+        </div>
+    }
+    @if (data==Roles.Adminstration||data==Roles.Informatique)
+    {
+        <div class=" col-12 col-sm m-1">
+            <a class="btn btn-outline-success" asp-page="/LabelType/LabelTypeManagement">مدیریت لیبل</a>
+        </div>
+    }
+
+
+
 </div>

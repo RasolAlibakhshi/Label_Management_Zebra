@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Presention.Areas.Admin.Pages.Accounts
+namespace Presention.Areas.Admin.Pages
 {
-    public class AddAccountModel : PageModel
+    public class MenuModel : PageModel
     {
         public void OnGet()
         {
