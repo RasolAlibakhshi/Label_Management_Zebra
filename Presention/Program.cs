@@ -51,7 +51,7 @@ namespace Presention
                     option.AddPolicy("Machine",builder=>builder.RequireRole(new List<string>{Roles.Adminstration,Roles.PersonInCharge}));
                     option.AddPolicy("Label", builder => builder.RequireRole(new List<string> { Roles.Adminstration, Roles.PersonInCharge,Roles.Design,Roles.ShiftManager }));
                     option.AddPolicy("LabelType", builder => builder.RequireRole(new List<string> { Roles.Adminstration, Roles.Informatique }));
-
+            
                 }
                 );
             builder.Services.AddRazorPages().AddRazorPagesOptions(option =>

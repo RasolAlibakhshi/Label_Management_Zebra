@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -80,19 +80,19 @@ namespace Infrastructure.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Interwoven = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
                     MachineID = table.Column<long>(type: "bigint", nullable: false),
-                    Filament = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
-                    Den = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
-                    Ply = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
-                    Mingel = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
-                    ColorCode = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
-                    direction = table.Column<string>(type: "nvarchar(5)", maxLength: 5, nullable: false),
-                    Emptyfield1 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
-                    Emptyfield2 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
-                    Emptyfield3 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
-                    Emptyfield4 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
-                    Emptyfield5 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
-                    YarnType = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Filament = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: true),
+                    Den = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: true),
+                    Ply = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: true),
+                    Mingel = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: true),
+                    ColorCode = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    direction = table.Column<string>(type: "nvarchar(5)", maxLength: 5, nullable: true),
+                    Emptyfield1 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    Emptyfield2 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    Emptyfield3 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    Emptyfield4 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    Emptyfield5 = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    YarnType = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false),
                     CreaationDateTime = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },

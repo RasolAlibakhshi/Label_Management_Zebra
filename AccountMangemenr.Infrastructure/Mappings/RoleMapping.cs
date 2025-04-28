@@ -15,20 +15,13 @@ namespace AccountMangemenr.Infrastructure.Mappings
         {
             builder.ToTable("Roles");
             builder.HasKey(x => x.ID);
-
+            builder.Ignore(x => x.IsDeleted);
+            builder.Ignore(x => x.CreaationDateTime);
             builder.Property(x => x.Name).HasMaxLength(100).IsRequired();
 
             builder.HasMany(x => x.Accounts).WithOne(x => x.Role).HasForeignKey(x => x.RoleID);
 
-            builder.OwnsMany<Permission>(x => x.Permissions, k =>
-                {
-                    k.HasKey(x => x.ID);
-                    k.ToTable("RolePermissions");
-                    k.WithOwner(x => x.Role);
-                }
-                
-                
-            );
+            
         }
     }
 }

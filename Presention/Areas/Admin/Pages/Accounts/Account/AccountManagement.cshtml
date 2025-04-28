@@ -65,14 +65,22 @@
                 @foreach (var item in Model.AccontView)
                 {
                     <tr class="">
-                        <td class="align-middle"><img src="~/@item.ProfilePhoto" class="rounded-circle" width="50" height="50"/></td>
+                            @if (string.IsNullOrWhiteSpace(item.ProfilePhoto))
+                            {
+                                <td class="align-middle"><img src="~/AccountPhotos/developer.png" class="rounded-circle" width="50" height="50" /></td>
+                            }
+                            else
+                            {
+                                <td class="align-middle"><img src="~/@item.ProfilePhoto" class="rounded-circle" width="50" height="50" /></td>
+                            }
+                        
                         <td class="align-middle">@item.FullName</td>
                         <td class="align-middle">@item.UserName</td>
                         <td class="align-middle">@item.RoleName</td>
                         <td class="align-middle">
                             <div class="btn-group align-items-center align-middle" dir="ltr">
                                 <a asp-page="/Accounts/Account/EditAccount" asp-route-id="@item.ID" class="btn btn-success">ویرایش</a>
-                                    <a asp-route-id="@item.ID" asp-page-handler="Remove" class="btn btn-warning ">تغییر رمز</a>
+                                <a asp-route-id="@item.ID" asp-page-handler="Remove" class="btn btn-warning ">تغییر رمز</a>
                                 <a asp-route-id="@item.ID" asp-page-handler="Remove" class="btn btn-danger ">حذف کاربر</a>
                             </div>
                         </td>

@@ -35,6 +35,17 @@ namespace AccountManagement.Domian.AccountAgg
             CreaationDateTime=DateTime.Now;
         }
 
+        public Account(string fullName, string userName, string password, long roleId)
+        {
+            FullName = fullName;
+            UserName = userName;
+            Password = password;
+            RoleID = roleId;
+            ProfilePhoto = "";
+            IsDeleted=false;
+            CreaationDateTime=DateTime.Now;
+        }
+
         public void Edit(string fullName, string userName, long roleId, string profilePhoto)
         {
             FullName = fullName;

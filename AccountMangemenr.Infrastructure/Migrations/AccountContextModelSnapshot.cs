@@ -30,12 +30,6 @@ namespace AccountMangemenr.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("ID"));
 
-                    b.Property<DateTime>("CreaationDateTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -44,6 +38,33 @@ namespace AccountMangemenr.Infrastructure.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Roles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1L,
+                            Name = "برنامه ریزی"
+                        },
+                        new
+                        {
+                            ID = 2L,
+                            Name = "سرشیفت"
+                        },
+                        new
+                        {
+                            ID = 3L,
+                            Name = "انفورماتیک"
+                        },
+                        new
+                        {
+                            ID = 4L,
+                            Name = "سرپرست"
+                        },
+                        new
+                        {
+                            ID = 5L,
+                            Name = "ادمین سیستم"
+                        });
                 });
 
             modelBuilder.Entity("AccountManagement.Domian.AccountAgg.Account", b =>
@@ -88,41 +109,19 @@ namespace AccountMangemenr.Infrastructure.Migrations
                     b.HasIndex("RoleID");
 
                     b.ToTable("Accounts", (string)null);
-                });
 
-            modelBuilder.Entity("AccountManagement.Domain.RoleAgg.Role", b =>
-                {
-                    b.OwnsMany("AccountManagement.Domain.RoleAgg.Permission", "Permissions", b1 =>
+                    b.HasData(
+                        new
                         {
-                            b1.Property<long>("ID")
-                                .ValueGeneratedOnAdd()
-                                .HasColumnType("bigint");
-
-                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b1.Property<long>("ID"));
-
-                            b1.Property<int>("Code")
-                                .HasColumnType("int");
-
-                            b1.Property<string>("Name")
-                                .IsRequired()
-                                .HasColumnType("nvarchar(max)");
-
-                            b1.Property<long>("RoleID")
-                                .HasColumnType("bigint");
-
-                            b1.HasKey("ID");
-
-                            b1.HasIndex("RoleID");
-
-                            b1.ToTable("RolePermissions", (string)null);
-
-                            b1.WithOwner("Role")
-                                .HasForeignKey("RoleID");
-
-                            b1.Navigation("Role");
+                            ID = 1L,
+                            CreaationDateTime = new DateTime(2025, 4, 27, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            FullName = "admin",
+                            IsDeleted = false,
+                            Password = "10000.TTrlm8E5W6vyza2TATY3eQ==.QbkEGcEjjlGEIuCC/GUGlfyg+PjKAOEQtjFrCJxEr9M=",
+                            ProfilePhoto = "",
+                            RoleID = 5L,
+                            UserName = "admin"
                         });
-
-                    b.Navigation("Permissions");
                 });
 
             modelBuilder.Entity("AccountManagement.Domian.AccountAgg.Account", b =>

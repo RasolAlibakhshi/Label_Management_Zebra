@@ -11,6 +11,7 @@ using System.Globalization;
 
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using WinFormNafisNakh;
 
 namespace Presention.Pages
@@ -100,10 +101,10 @@ namespace Presention.Pages
             LabelTypeView = _labelTypeApplication.Search(new LabelTypeSerachModel
             {
                 HallID = HallID
-            });
+            }).Where(x=>x.IsRemove==false).ToList();
         }
 
-        public void OnPost(PrintModelOutput command)
+        public IActionResult OnPost(PrintModelOutput command)
         {
             string dateTime;
             string fileContent;
@@ -128,22 +129,34 @@ namespace Presention.Pages
             while (command.NumberStr<=command.NumberEnd)
             {
                 string FinalPrint = fileContent;
-                FinalPrint=FinalPrint.Replace("HAMBAFT", command.Interwoven)
+                FinalPrint=FinalPrint
+                    .Replace("HAMBAFT", command.Interwoven)
                     .Replace("DENIER", command.Den)
                     .Replace("FILAMENT", command.Filament)
-                    .Replace("lA", command.Ply)
+                    .Replace("PLY", command.Ply)
                     .Replace("MINGEL", command.Mingel)
-                    .Replace("SALON", HallName)
-                    .Replace("1938", command.Personcode)
-                    .Replace("2B", MachineName)
-                    .Replace("count_1",(command.NumberStr<=command.NumberEnd? command.NumberStr++.ToString() : "") )
-                    .Replace("count_2", (command.NumberStr<=command.NumberEnd ? command.NumberStr++.ToString() : ""))
-                    .Replace("count_3", (command.NumberStr<=command.NumberEnd ? command.NumberStr++.ToString() : ""))
-                    .Replace("138/01/24", dateTime);
-                
+                    .Replace("HALL", HallName)
+                    .Replace("CODE", command.Personcode)
+                    .Replace("MACHINE", MachineName)
+                    .Replace("EMPTY1", command.Emptyfield1)
+                    .Replace("EMPTY2", command.Emptyfield2)
+                    .Replace("EMPTY3", command.Emptyfield3)
+                    .Replace("EMPTY4", command.Emptyfield4)
+                    .Replace("DATE", dateTime);
+                for (byte i = 1;  i<= 3; i++)
+                {
+                    int count = 0;
+                    FinalPrint=Regex.Replace(FinalPrint, "COUNT", m =>
+                    {
+                        count++;
+                        return count == 1 ? command.NumberStr<=command.NumberEnd ? command.NumberStr++.ToString() : "" : m.Value;
+                    });
+                }
                 RawDataPrint.RawPrinterHelper.SendStringToPrinter(GetDefaultPrinterName(), FinalPrint);
                 Thread.Sleep(500);
             }
+
+            return RedirectToPage("Index");
         }
     }
 }
